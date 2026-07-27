@@ -8,6 +8,14 @@ st.set_page_config(
     page_title="CBZ Lifestyle Loan Scoring",
     layout="wide"
 )
+# Hide Streamlit menu/footer
+st.markdown("""
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+""", unsafe_allow_html=True)
 
 st.title("CBZ Lifestyle Loan Scoring Dashboard")
 st.image("assets/cbz_logo.png", width=200)
