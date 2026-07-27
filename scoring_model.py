@@ -241,10 +241,8 @@ def credit_grade(score):
 
 def decision(score):
 
-    if score >= 70:
+    if score >= 60:
         return "APPROVE"
-    elif score >= 55:
-        return "REFER"
     else:
         return "DECLINE"
     
