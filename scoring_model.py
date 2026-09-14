@@ -120,7 +120,7 @@ CREDIT_HISTORY = {
 }
 
 ALTERNATIVE_INCOME = {
-    "Salary plus multiple verified income sources through CBZ ": 4,
+    "Salary income plus 4+ diversified income sources": 4,
     "Salary income plus 3+ documented income sources": 3,
     "Non Salaried two or more income sources": 2,
     "2 or more income sources with limited evidence": 1,
